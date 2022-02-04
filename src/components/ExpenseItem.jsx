@@ -2,8 +2,7 @@ import ExpenseDate from './ExpenseDate'
 import './ExpenseItem.css'
 
 function ExpenseItem(props) {
-  const { title, date, amount } = props
-
+  const { title, amount, date } = props
   return (
     <div className="expense-item">
       <ExpenseDate date={date} />
