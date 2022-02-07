@@ -9,8 +9,8 @@ const Expenses = (props) => {
 
   const [filteredYear, setFilteredYear] = useState('2020')
 
-  const saveFilteredYearHandler = (year) => {
-    setFilteredYear(year)
+  const saveFilteredYearHandler = (selectedYear) => {
+    setFilteredYear(selectedYear)
   }
 
   return (
