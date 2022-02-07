@@ -6,31 +6,16 @@ const ExpenseForm = (props) => {
   const [enteredAmount, setEnteredAmount] = useState('')
   const [enteredDate, setEnteredDate] = useState('')
 
-  // const [userInput, setUserInput] = useState({
-  //   enteredTitle: '',
-  //   enteredAmount: '',
-  //   enteredDate: '',
-  // })
-
   const titleChangeHandler = (event) => {
     setEnteredTitle(event.target.value)
-    // setUserInput((prevState) => {
-    //   return { ...prevState, enteredTitle: event.target.value }
-    // })
   }
 
   const amountChangeHandler = (event) => {
     setEnteredAmount(event.target.value)
-    // setUserInput((prevState) => {
-    //   return { ...prevState, enteredAmount: event.target.value }
-    // })
   }
 
   const dateChangeHandler = (event) => {
     setEnteredDate(event.target.value)
-    // setUserInput((prevState) => {
-    //   return { ...prevState, enteredDate: event.target.value }
-    // })
   }
 
   const submitHandler = (event) => {
@@ -41,8 +26,10 @@ const ExpenseForm = (props) => {
       amount: enteredAmount,
       date: new Date(enteredDate),
     }
+    // In order to pass the info up (from child to parent), we have to use a function sending the data by props from the parent component (NewExpense):
+    props.onSaveExpenseData(expenseData)
 
-    props.onSaveExpenseData(expenseData) //-> In order to pass the info up (from child to parent), we have to use a function sending it by props from the parent component (NewExpense)
+    // To reset the values of the form, we update the state to an empty string:
     setEnteredTitle('')
     setEnteredAmount('')
     setEnteredDate('')
