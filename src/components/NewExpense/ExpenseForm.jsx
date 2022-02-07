@@ -23,7 +23,7 @@ const ExpenseForm = (props) => {
 
     const expenseData = {
       title: enteredTitle,
-      amount: enteredAmount,
+      amount: +enteredAmount,
       date: new Date(enteredDate),
     }
     // In order to pass the info up (from child to parent), we have to use a function sending the data by props from the parent component (NewExpense):
