@@ -10,7 +10,7 @@ This exercise consists in making an Expense Tracker practising basic React conce
 
 - Clone this repo
 
-- Open it and start:
+- Open t and start:
 
   ```bash
   $ cd react-exercise
@@ -26,7 +26,9 @@ This exercise consists in making an Expense Tracker practising basic React conce
   $ npm start
   ```
 
-In the project directory, you can run:
+Once you've finished, you can easily erase the node_modules folder running this command at your console:
+
+`[npx npkill](https://npkill.js.org/)`
 
 ### `yarn start`
 
