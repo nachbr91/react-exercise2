@@ -10,7 +10,7 @@ This exercise consists in making an Expense Tracker practising basic React conce
 
 - Clone this repo
 
-- Open t and start:
+- Open it and start:
 
   ```bash
   $ cd react-exercise
