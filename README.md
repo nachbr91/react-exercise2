@@ -26,11 +26,6 @@ This exercise consists in making an Expense Tracker practising basic React conce
   $ npm start
   ```
 
-Once you've finished, you can easily erase the node_modules folder running this command at your console:
+Once you've finished, you can easily erase the node_modules folder using [npx npkill](https://npkill.js.org/) running this command at your console:
 
-`[npx npkill](https://npkill.js.org/)`
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`npx npkill`
