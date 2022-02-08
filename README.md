@@ -27,4 +27,7 @@ This exercise consists in making an Expense Tracker practising basic React conce
   ```
 
 Once you've finished, you can easily erase the node_modules folder using [npkill](https://npkill.js.org/) running this command on your console:
-`npx npkill`
+
+```bash
+$ npx npkill
+```
