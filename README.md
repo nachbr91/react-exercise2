@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+# React Practice - Making a Expenses Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a guided exercise to practice <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
 
-## Available Scripts
+This exercise consists in making an Expense Tracker practising basic React concepts such as `Components`, `Props`, `Children props`, `useState()`, `Form Inputs`, `Lifting the State Up`, `Handling Form Submission`, `Conditional Rendering`, and `Dynamic Styles`.
+
+## Do you wanna take a look?
 
 In the project directory, you can run:
 
