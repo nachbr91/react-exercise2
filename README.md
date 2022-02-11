@@ -6,4 +6,4 @@ This exercise consists in making an Expense Tracker practising basic React conce
 
 ## Do you want to take a look?
 
-Just go to [react-practice-woad.vercel.app](react-practice-woad.vercel.app)!
+Just go to [https://react-practice-woad.vercel.app/](react-practice-woad.vercel.app)
