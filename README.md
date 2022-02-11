@@ -6,28 +6,4 @@ This exercise consists in making an Expense Tracker practising basic React conce
 
 ## Do you want to take a look?
 
-- Fork this repo
-
-- Clone this repo
-
-- Open it and start:
-
-  ```bash
-  $ cd react-exercise
-  $ yarn install
-  $ yarn start
-  ```
-
-- In case you use `npm`:
-
-  ```bash
-  $ cd react-exercise
-  $ npm install
-  $ npm start
-  ```
-
-Once you've finished, you can easily erase the node_modules folder using [npkill](https://npkill.js.org/) running this command on your console:
-
-```bash
-$ npx npkill
-```
+Just go to [react-practice-woad.vercel.app](react-practice-woad.vercel.app)!
